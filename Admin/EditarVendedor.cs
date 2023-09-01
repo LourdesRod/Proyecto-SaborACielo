@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SaborACielo.Admin
 {
-    public partial class IniciarSesión : Form
+    public partial class EditarVendedor : Form
     {
-        public IniciarSesión()
+        public EditarVendedor()
         {
             InitializeComponent();
         }
