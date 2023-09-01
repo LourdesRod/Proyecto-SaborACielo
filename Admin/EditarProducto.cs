@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SaborACielo.Admin
 {
-    public partial class EditarProducto : Form
+    public partial class EditProducto : Form
     {
-        public EditarProducto()
+        public EditProducto()
         {
             InitializeComponent();
         }

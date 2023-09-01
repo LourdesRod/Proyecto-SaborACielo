@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SaborACielo.Admin
 {
-    public partial class EditarVendedor : Form
+    public partial class EditVendedor : Form
     {
-        public EditarVendedor()
+        public EditVendedor()
         {
             InitializeComponent();
+        }
+
+        private void EditVendedor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

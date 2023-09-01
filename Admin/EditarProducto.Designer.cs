@@ -1,6 +1,6 @@
 ﻿namespace SaborACielo.Admin
 {
-    partial class EditarProducto
+    partial class EditProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            SuspendLayout();
+            // 
+            // EditProducto
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Text = "Form1";
+            Name = "EditProducto";
+            Text = "Editar Producto";
+            ResumeLayout(false);
         }
 
         #endregion
