@@ -31,7 +31,7 @@
             BAgregarCliente = new Button();
             BListarVentas = new Button();
             BListaProd = new Button();
-            button1 = new Button();
+            BFactura = new Button();
             SuspendLayout();
             // 
             // BAgregarCliente
@@ -45,6 +45,7 @@
             BAgregarCliente.Text = "Clientes";
             BAgregarCliente.TextAlign = ContentAlignment.BottomCenter;
             BAgregarCliente.UseVisualStyleBackColor = true;
+            BAgregarCliente.Click += BAgregarCliente_Click;
             // 
             // BListarVentas
             // 
@@ -57,6 +58,7 @@
             BListarVentas.Text = "Ventas";
             BListarVentas.TextAlign = ContentAlignment.BottomCenter;
             BListarVentas.UseVisualStyleBackColor = true;
+            BListarVentas.Click += BListarVentas_Click;
             // 
             // BListaProd
             // 
@@ -69,25 +71,27 @@
             BListaProd.Text = "Productos";
             BListaProd.TextAlign = ContentAlignment.BottomCenter;
             BListaProd.UseVisualStyleBackColor = true;
+            BListaProd.Click += BListaProd_Click;
             // 
-            // button1
+            // BFactura
             // 
-            button1.Image = Properties.Resources.recibo;
-            button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(561, 414);
-            button1.Name = "button1";
-            button1.Size = new Size(158, 166);
-            button1.TabIndex = 3;
-            button1.Text = "Facturas";
-            button1.TextAlign = ContentAlignment.BottomCenter;
-            button1.UseVisualStyleBackColor = true;
+            BFactura.Image = Properties.Resources.recibo;
+            BFactura.ImageAlign = ContentAlignment.TopCenter;
+            BFactura.Location = new Point(561, 414);
+            BFactura.Name = "BFactura";
+            BFactura.Size = new Size(158, 166);
+            BFactura.TabIndex = 3;
+            BFactura.Text = "Facturas";
+            BFactura.TextAlign = ContentAlignment.BottomCenter;
+            BFactura.UseVisualStyleBackColor = true;
+            BFactura.Click += BFactura_Click;
             // 
             // InicioV
             // 
             AutoScaleDimensions = new SizeF(15F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1200, 702);
-            Controls.Add(button1);
+            Controls.Add(BFactura);
             Controls.Add(BListaProd);
             Controls.Add(BListarVentas);
             Controls.Add(BAgregarCliente);
@@ -103,6 +107,6 @@
         private Button BAgregarCliente;
         private Button BListarVentas;
         private Button BListaProd;
-        private Button button1;
+        private Button BFactura;
     }
 }
