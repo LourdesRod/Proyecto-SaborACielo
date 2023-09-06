@@ -88,8 +88,10 @@
             // 
             // InicioV
             // 
-            AutoScaleDimensions = new SizeF(15F, 39F);
+            AutoScaleDimensions = new SizeF(10F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.fondoPrincipal;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1200, 702);
             Controls.Add(BFactura);
             Controls.Add(BListaProd);

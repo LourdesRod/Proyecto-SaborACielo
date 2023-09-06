@@ -29,167 +29,177 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Finicio));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.bIngresar = new System.Windows.Forms.Button();
-            this.bSalir = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            bIngresar = new Button();
+            bSalir = new Button();
+            label6 = new Label();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Script MT Bold", 25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(201, 130);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 41);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sabor ";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Script MT Bold", 25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(234, 150);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(106, 41);
+            label1.TabIndex = 0;
+            label1.Text = "Sabor ";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Script MT Bold", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(299, 138);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 29);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "a";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Script MT Bold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(339, 158);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(26, 29);
+            label2.TabIndex = 1;
+            label2.Text = "a";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Script MT Bold", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(226, 167);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 39);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Cielo";
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Script MT Bold", 24.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(264, 193);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(81, 39);
+            label3.TabIndex = 2;
+            label3.Text = "Cielo";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Script MT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(162, 257);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 24);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Usuario";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Script MT Bold", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(191, 297);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(74, 24);
+            label4.TabIndex = 3;
+            label4.Text = "Usuario";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Script MT Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(162, 293);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 24);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Contraseña";
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Script MT Bold", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(178, 338);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(98, 24);
+            label5.TabIndex = 4;
+            label5.Text = "Contraseña";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(304, 257);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(118, 20);
-            this.textBox1.TabIndex = 5;
+            textBox1.Location = new Point(355, 297);
+            textBox1.Margin = new Padding(4, 3, 4, 3);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(137, 23);
+            textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(304, 293);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(118, 20);
-            this.textBox2.TabIndex = 6;
+            textBox2.Location = new Point(355, 338);
+            textBox2.Margin = new Padding(4, 3, 4, 3);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(137, 23);
+            textBox2.TabIndex = 6;
             // 
             // bIngresar
             // 
-            this.bIngresar.BackColor = System.Drawing.Color.RosyBrown;
-            this.bIngresar.FlatAppearance.BorderColor = System.Drawing.Color.RosyBrown;
-            this.bIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RosyBrown;
-            this.bIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RosyBrown;
-            this.bIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bIngresar.Font = new System.Drawing.Font("Script MT Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bIngresar.Location = new System.Drawing.Point(208, 353);
-            this.bIngresar.Name = "bIngresar";
-            this.bIngresar.Size = new System.Drawing.Size(132, 35);
-            this.bIngresar.TabIndex = 7;
-            this.bIngresar.Text = "Ingresar";
-            this.bIngresar.UseVisualStyleBackColor = false;
-            this.bIngresar.Click += new System.EventHandler(this.bIngresar_Click);
+            bIngresar.BackColor = Color.RosyBrown;
+            bIngresar.FlatAppearance.BorderColor = Color.RosyBrown;
+            bIngresar.FlatAppearance.MouseDownBackColor = Color.RosyBrown;
+            bIngresar.FlatAppearance.MouseOverBackColor = Color.RosyBrown;
+            bIngresar.FlatStyle = FlatStyle.Popup;
+            bIngresar.Font = new Font("Script MT Bold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bIngresar.Location = new Point(234, 396);
+            bIngresar.Margin = new Padding(4, 3, 4, 3);
+            bIngresar.Name = "bIngresar";
+            bIngresar.Size = new Size(154, 40);
+            bIngresar.TabIndex = 7;
+            bIngresar.Text = "Ingresar";
+            bIngresar.UseVisualStyleBackColor = false;
+            bIngresar.Click += bIngresar_Click;
             // 
             // bSalir
             // 
-            this.bSalir.BackColor = System.Drawing.Color.Transparent;
-            this.bSalir.FlatAppearance.BorderSize = 0;
-            this.bSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bSalir.Image = ((System.Drawing.Image)(resources.GetObject("bSalir.Image")));
-            this.bSalir.Location = new System.Drawing.Point(473, 12);
-            this.bSalir.Name = "bSalir";
-            this.bSalir.Size = new System.Drawing.Size(47, 55);
-            this.bSalir.TabIndex = 8;
-            this.bSalir.UseVisualStyleBackColor = false;
-            this.bSalir.Click += new System.EventHandler(this.bSalir_Click);
+            bSalir.BackColor = Color.Transparent;
+            bSalir.FlatAppearance.BorderSize = 0;
+            bSalir.FlatStyle = FlatStyle.Flat;
+            bSalir.Image = (Image)resources.GetObject("bSalir.Image");
+            bSalir.Location = new Point(552, 14);
+            bSalir.Margin = new Padding(4, 3, 4, 3);
+            bSalir.Name = "bSalir";
+            bSalir.Size = new Size(55, 63);
+            bSalir.TabIndex = 8;
+            bSalir.UseVisualStyleBackColor = false;
+            bSalir.Click += bSalir_Click;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Script MT Bold", 15F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(229, 220);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 24);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Inicio";
+            label6.AutoSize = true;
+            label6.Font = new Font("Script MT Bold", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(267, 254);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(58, 24);
+            label6.TabIndex = 9;
+            label6.Text = "Inicio";
             // 
             // Finicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(532, 538);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.bSalir);
-            this.Controls.Add(this.bIngresar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Finicio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(621, 621);
+            Controls.Add(label6);
+            Controls.Add(bSalir);
+            Controls.Add(bIngresar);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "Finicio";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button bIngresar;
-        private System.Windows.Forms.Button bSalir;
-        private System.Windows.Forms.Label label6;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Button bIngresar;
+        private Button bSalir;
+        private Label label6;
     }
 }
 

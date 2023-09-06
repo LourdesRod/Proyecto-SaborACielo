@@ -106,7 +106,12 @@ namespace SaborACielo
 
         private void Busuarios_Click(object sender, EventArgs e)
         {
-            contextMenuStrip1.Show(Busuarios, new Point(0, Busuarios.Height));
+            contextMenuStrip1.Show(Bempleados, new Point(0, Bempleados.Height));
+        }
+
+        private void MDIParent1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

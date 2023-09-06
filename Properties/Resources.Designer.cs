@@ -73,6 +73,46 @@ namespace SaborACielo.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap decoracion_de_pasteles {
+            get {
+                object obj = ResourceManager.GetObject("decoracion-de-pasteles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap empleados___copia {
+            get {
+                object obj = ResourceManager.GetObject("empleados - copia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoPrincipal {
+            get {
+                object obj = ResourceManager.GetObject("fondoPrincipal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice_1611167 {
+            get {
+                object obj = ResourceManager.GetObject("invoice_1611167", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap product {
             get {
                 object obj = ResourceManager.GetObject("product", resourceCulture);
@@ -86,6 +126,26 @@ namespace SaborACielo.Properties {
         internal static System.Drawing.Bitmap recibo {
             get {
                 object obj = ResourceManager.GetObject("recibo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_money_1611179 {
+            get {
+                object obj = ResourceManager.GetObject("save-money_1611179", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap teamwork_2502447 {
+            get {
+                object obj = ResourceManager.GetObject("teamwork_2502447", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -28,56 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Busuarios = new System.Windows.Forms.Button();
-            this.Bproductos = new System.Windows.Forms.Button();
-            this.Bventas = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            Bclientes = new Button();
+            BFactura = new Button();
+            BListaProd = new Button();
+            BListarVentas = new Button();
+            button1 = new Button();
+            SuspendLayout();
             // 
-            // Busuarios
+            // Bclientes
             // 
-            this.Busuarios.Location = new System.Drawing.Point(42, 80);
-            this.Busuarios.Name = "Busuarios";
-            this.Busuarios.Size = new System.Drawing.Size(75, 28);
-            this.Busuarios.TabIndex = 4;
-            this.Busuarios.Text = "Usuarios";
-            this.Busuarios.UseVisualStyleBackColor = true;
-            this.Busuarios.Click += new System.EventHandler(this.Busuarios_Click);
+            Bclientes.Location = new Point(540, 85);
+            Bclientes.Name = "Bclientes";
+            Bclientes.Size = new Size(75, 23);
+            Bclientes.TabIndex = 9;
+            Bclientes.Text = "Clientes";
+            Bclientes.UseVisualStyleBackColor = true;
             // 
-            // Bproductos
+            // BFactura
             // 
-            this.Bproductos.Location = new System.Drawing.Point(271, 52);
-            this.Bproductos.Name = "Bproductos";
-            this.Bproductos.Size = new System.Drawing.Size(75, 23);
-            this.Bproductos.TabIndex = 5;
-            this.Bproductos.Text = "Productos";
-            this.Bproductos.UseVisualStyleBackColor = true;
+            BFactura.Image = Properties.Resources.empleados___copia;
+            BFactura.ImageAlign = ContentAlignment.TopCenter;
+            BFactura.Location = new Point(490, 329);
+            BFactura.Name = "BFactura";
+            BFactura.Size = new Size(158, 166);
+            BFactura.TabIndex = 15;
+            BFactura.Text = "Empleados";
+            BFactura.TextAlign = ContentAlignment.BottomCenter;
+            BFactura.UseVisualStyleBackColor = true;
             // 
-            // Bventas
+            // BListaProd
             // 
-            this.Bventas.Location = new System.Drawing.Point(516, 52);
-            this.Bventas.Name = "Bventas";
-            this.Bventas.Size = new System.Drawing.Size(75, 23);
-            this.Bventas.TabIndex = 6;
-            this.Bventas.Text = "Ventas";
-            this.Bventas.UseVisualStyleBackColor = true;
+            BListaProd.Image = Properties.Resources.decoracion_de_pasteles;
+            BListaProd.ImageAlign = ContentAlignment.TopCenter;
+            BListaProd.Location = new Point(142, 329);
+            BListaProd.Name = "BListaProd";
+            BListaProd.Size = new Size(158, 166);
+            BListaProd.TabIndex = 14;
+            BListaProd.Text = "Productos";
+            BListaProd.TextAlign = ContentAlignment.BottomCenter;
+            BListaProd.UseVisualStyleBackColor = true;
+            // 
+            // BListarVentas
+            // 
+            BListarVentas.Image = Properties.Resources.save_money_1611179;
+            BListarVentas.ImageAlign = ContentAlignment.TopCenter;
+            BListarVentas.Location = new Point(483, 83);
+            BListarVentas.Name = "BListarVentas";
+            BListarVentas.Size = new Size(158, 167);
+            BListarVentas.TabIndex = 13;
+            BListarVentas.Text = "Ventas";
+            BListarVentas.TextAlign = ContentAlignment.BottomCenter;
+            BListarVentas.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Image = Properties.Resources.teamwork_2502447;
+            button1.ImageAlign = ContentAlignment.TopCenter;
+            button1.Location = new Point(142, 85);
+            button1.Name = "button1";
+            button1.Size = new Size(158, 167);
+            button1.TabIndex = 12;
+            button1.Text = "Clientes";
+            button1.TextAlign = ContentAlignment.BottomCenter;
+            button1.UseVisualStyleBackColor = true;
             // 
             // MDIParent1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 453);
-            this.Controls.Add(this.Bventas);
-            this.Controls.Add(this.Bproductos);
-            this.Controls.Add(this.Busuarios);
-            this.IsMdiContainer = true;
-            this.Name = "MDIParent1";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
+            BackgroundImage = Properties.Resources.fondoPrincipal;
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(791, 523);
+            Controls.Add(BFactura);
+            Controls.Add(BListaProd);
+            Controls.Add(BListarVentas);
+            Controls.Add(button1);
+            Controls.Add(Bclientes);
+            IsMdiContainer = true;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "MDIParent1";
+            Load += MDIParent1_Load;
+            ResumeLayout(false);
         }
+
         #endregion
-        private System.Windows.Forms.Button Busuarios;
-        private System.Windows.Forms.Button Bproductos;
-        private System.Windows.Forms.Button Bventas;
+        private Button Bclientes;
+        private Button BFactura;
+        private Button BListaProd;
+        private Button BListarVentas;
+        private Button button1;
     }
 }
 
